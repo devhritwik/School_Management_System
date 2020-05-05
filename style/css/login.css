@@ -1,0 +1,79 @@
+/*
+body {
+	background:url('/dbms/style/images/school.jpg');
+	background-color: #cccccc;
+}
+*/
+.knockout {
+  background: url('/dbms/style/images/fontBack.jpg') -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: arial, helvetica;
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.modal-content
+{
+	background-color: #000;
+	opacity: 0.5;
+	margin-top:15%;
+}
+.btn-link{
+	color:white;
+}
+.modal-heading h2{
+	color:#ffffff;
+}
+/*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #DDFFD6, #E1F5FA, #9C9C9C, #FFFFFF);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}

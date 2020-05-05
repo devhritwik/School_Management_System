@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.springframework.org/schema/beans  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <context:component-scan base-package="com.dbms" />
+    <context:annotation-config />
+    <bean id="teacherdao" class="com.dbms.dao.TeacherdaoImpl" />
+	<bean id="studentdao" class="com.dbms.dao.StudentdaoImpl"/>
+	<bean id="parentdao" class="com.dbms.dao.ParentdaoImpl" />
+	<bean id="accountantdao" class="com.dbms.dao.AccountantdaoImpl"/>
+	<bean id="classdao" class="com.dbms.dao.ClassdaoImpl"/>
+	<bean id="subjectdao" class="com.dbms.dao.SubjectdaoImpl"/>
+	<bean id="reportdao" class="com.dbms.dao.ReportdaoImpl"/>
+	<bean id="homeworkdao" class="com.dbms.dao.HomeworkdaoImpl"/>
+	<bean id="billdao" class="com.dbms.dao.BilldaoImpl" />
+	<bean id="scheduledao" class="com.dbms.dao.ScheduledaoImpl"/>
+	<bean id="attendancedao" class="com.dbms.dao.AttendancedaoImpl"/>
+	<bean id="examdao" class="com.dbms.dao.ExamdaoImpl"/>
+    <bean id="userdao" class="com.dbms.dao.UserdaoImpl" />
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+</beans>
